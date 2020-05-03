@@ -13,7 +13,7 @@ public class DbSingleton {
     private DbSingleton() {
         // Protect against creation via reflection
         if (conn != null) {
-            throw new RuntimeException("Use getConnetion() methid to create.");
+            throw new RuntimeException("Use getConnection() method to create.");
         }
 
         // Protect against creation via reflection
